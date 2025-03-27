@@ -1,0 +1,22 @@
+# Cursor Rules
+- Platform: Mac (darwin 24.3.0)
+- Shell: /opt/homebrew/bin/zsh
+
+## Command Execution Rules
+- Execute commands one at a time
+- No command chaining
+- Document all command results
+
+## Documentation Rules
+- Keep tasks.md as single source of truth
+- Update Memory Bank files based on task complexity
+- Use creative phases for complex design decisions
+
+## Memory Bank Structure
+- projectbrief.md: Core requirements
+- productContext.md: Project purpose
+- activeContext.md: Current focus
+- systemPatterns.md: Architecture
+- techContext.md: Tech stack
+- progress.md: Status & reflections
+- tasks.md: Task tracking 
