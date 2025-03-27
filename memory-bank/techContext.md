@@ -1,10 +1,29 @@
 # Technical Context
 
 ## Platform Information
-- Host OS: Mac (darwin 24.3.0)
-- Implementation environment: Docker containers
-- Target deployment: Any platform supporting Docker and Docker Compose
-- Access method: Web browser
+- OS: Mac (darwin 24.3.0)
+- Shell: /opt/homebrew/bin/zsh
+
+## Command Adaptations
+Using Mac/Unix command format:
+- Directory creation: mkdir -p
+- File creation: touch
+- Directory listing: ls
+- Path separator: forward slash (/)
+
+## Development Environment
+- Blueprint location: Use environment variable for accessing the blueprint
+  ```bash
+  # Set and use the environment variable
+  export LOTUS_BLUEPRINT_PATH="path/to/blueprint"
+  ```
+- Environment variables can be set in `.env` file for docker-compose or in shell startup files
+
+## Deployment Requirements
+- Docker-compose for containerization
+- Support for cloud and hybrid environments
+- Security best practices implementation
+- Network configuration for controlled access
 
 ## Technologies Used
 - Docker - Container platform for application deployment
